@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+    }
+
+    body { 
+      scroll-behavior: smooth;
+      background: linear-gradient(135deg, #ef0606, #055fef, #be095a, #9207e3, #FF8C94);
+      background-size: 400% 400%;
+      animation: gradientShift 5s ease infinite;
+    }
+    @keyframes gradientShift
+    {
+      0% { background-position: 0% 50% ;}
+      50% { background-position: 100% 50% ;}
+      100% { background-position: 0% 50% ;}
+    }
+
+
+    header {
+      background: rgba(169, 237, 11, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 15px 0;
+      position: sticky;
+    top: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color:sandybrown;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      background: #dadde1;
+      color: #1e17a2;
+      box-shadow: 0 0 20px#260768;
+    }
+#fresher{
+  text-align: center;
+  margin: 50px auto;
+  padding: 75px ;
+max-width: 1000px;
+background :#6b69df;
+box-shadow: 0px 0px 50px #7dedfa;
+border-radius: 50px;
+}
+#fresher  h1, h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color:wheat;
+}
+#aboutme{
+  text-align: center;
+  max-width: 1000px;
+  padding: 75px;
+  margin: 70px auto;
+  background-color: #6b69df;
+  box-shadow: 0px 0px 35px #7dedfa;
+  border-radius: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:normal;
+  font-size: 25px;
+  
+  
+}
+#aboutme h6{
+  font-weight:bold;
+  font-size:20px;
+  font-style:normal;
+}
+#skills{
+  text-align: center;
+  max-width: 1000px;
+  margin: 70px auto;
+  padding: 75px;
+background-color: #6b69df;
+box-shadow:0px 0px 35px #7dedfa;
+border-radius: 50px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:normal;
+  font-size: 25px;
+}
+#skills h6{
+  font-weight:bold;
+  font-size:20px;
+  font-style:normal;
+}
+#projects{
+  text-align: center;
+  max-width: 1000px;
+  padding: 70px;
+  margin: 70px auto;
+  background-color: #6b69df;
+  box-shadow:0px 0px 35px #7dedfa;
+  border-radius: 50px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:normal;
+  font-size: 25px;
+
+}
+#projects img {
+  width: 150px;
+  border-radius: 12px;
+}
+#certification{
+  text-align: center;
+  max-width: 1000px;
+  padding: 70px;
+  margin:  70px auto;
+  background-color: #6b69df;
+  box-shadow:0px 0px 35px #7dedfa;
+  border-radius: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+  #certification img {
+      width: 350px;
+      border-radius: 25px;
+      margin: 20px;
+      box-shadow: 0px 0px 25px #7dedfa;
+      transition: transform 0.3s ease;
+    }
+
+    #certification img:hover {
+      transform: scale(1.05);
+    }
+
+#contact{
+  text-align: center;
+  max-width: 1000px;
+  padding: 70px;
+  margin: 70px auto;
+  background-color: #6b69df;
+  box-shadow:0px 0px 35px #7dedfa;
+  border-radius: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+section h4 {
+  color:lightgray;
+  text-decoration: #055fef;
+
+}
+
+
+
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#fresher">🧑‍💻 FRESHER</a></li>
+        <li><a href="#aboutme">📖 ABOUT ME</a></li>
+        <li><a href="#skills">🛠️ SKILLS</a></li>
+        <li><a href="#projects">📂 PROJECTS</a></li>
+        <li><a href="#certification">🎓 CERTIFICATION</a></li>
+        <li><a href="#contact">📞 CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Fresher section -->
+  <section id="fresher">
+    <h1>HELLO  👋</h1><br><br>
+    <h2>I'M M.HUSSAIN MUSTHAQ </h2>
+  </section>
+
+  <!-- About section -->
+  <section id="aboutme">
+    <h4>ABOUT ME &nbsp;📖</h4><br>
+    <p> I am Hussain, a fresher currently pursuing a <h6>Bachelor of Computer Applications (BCA) at Vijayam Science and Arts college, Chittoor. </h6>
+      I am eager to start my professional journey in the field of Software and web development, 
+      building on the foundational knowledge I have gained through my studies</p><br>
+
+      <p>I am enthusiastic about learning new technologies, improving my coding skills, and contributing to meaning full projects. 
+        I value teamwork, adaptability,and a strong work ethic as I prepare to enter the industry.</p>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <h4>SKILLS &nbsp;🛠️</h4><br>
+    <p>AS a fresher, I have  a basic understanding of <h6>HTML, CSS, C programming, python, MySQL, Git/GitHub, and MS Excel.</h6>
+       I am focused on strengthening these skills through practical experience and continuous learning and much more.</p> <br>
+       <p>I am motivated to develop clean, efficient code and grow into versatile developer capable of handling both front-end and back-end tasks. 
+        My goal is to become proficient in modern development tools and development tools and methodologies while contributing positively to any team I join</p>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects">
+    <h4>PROJECTS &nbsp;📂</h4><br>
+    <p><h5> working on it !</h5></p>
+     <img src="file:///C:/Users/hussa/Downloads/6hGnZ7akzotLPJc1EI.webp" alt="errorF">
+  </section>
+
+  <!-- Certification section -->
+  <section id="certification">
+    <h4>CERTIFICATION &nbsp;🎓</h4><br>
+    <img src="file:///C:/Users/hussa/OneDrive/Pictures/Screenshots/Screenshot%202026-04-16%20133554.png" alt="error">
+    <img src="file:///C:/Users/hussa/OneDrive/Pictures/Screenshots/Screenshot%202026-04-16%20185745.png" alt="error">
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <h4>CONTACT &nbsp;📞</h4><bR>
+    <p>Name:  Hussain Musthaq.M</p><BR>
+    <p> ✉️ E-mail:  <a href="mailto:hussainmustahq818@gmail.com">hussainmustahq818@gmail.com</a></p><BR>
+    <p> 📳 phone:  <a href="tel:+919014058881">+91 90140 58881</a></p><BR>
+    <p> 🔗 Linkedin:  <a href="https://www.linkedin.com/in/hussain-musthaq?utm_source=share_via&utm_content=profile&utm_medium=member_android">Visit My linkedin</a></p><br>
+    <p> 🦾 GitHub: <a href="https://github.com/hussainmusthaq818">GitHub link</a></p>
+  </section>
+</body>
+</html>
